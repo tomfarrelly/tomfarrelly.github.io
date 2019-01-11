@@ -113,17 +113,11 @@ function scoreCounter(){
     //this.finished = this.add.sprite(300,250,'finished');
     
     //Score box 
-    this.scoreText = this.add.text(555, 8, 'FUCK: 0' , {
+    this.scoreText = this.add.text(555, 8, 'SCORE: 0' , {
         fontSize: '13px',
         fill: '#ffffff'
     });
     
-    this.highscoreText = this.add.text(430, 8, 'FUCKUY: 0' , {
-        fontSize: '13px',
-        fill: '#ffffff'
-    });
-
-
     //game dimensions set to system configuration
     let gameW = this.sys.game.config.width;
     let gameH = this.sys.game.config.height;
